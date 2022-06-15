@@ -21,7 +21,7 @@ Monty 0.98 is a scripting language that is first compiled into Monty byte codes 
 
 ## Resources
 
-<p>Read <a href="https://www.google.com/webhp?sourceid=chrome-instant&amp;rlz=1C1CHFX_enUS688US688&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=stack%20and%20queue">Google</a>, <a href="http://stackoverflow.com/questions/1433204/how-do-i-use-extern-to-share-variables-between-source-files-in-c">How do I use extern to share variables between source files in C?</a>, and <a href="https://github.com/blog/2104-working-with-submodules">Working with submodules</a>.</p>
+<p>Read <a href="https://www.google.com/webhp?q=stack%20and%20queue">Google</a>, <a href="http://stackoverflow.com/questions/1433204/how-do-i-use-extern-to-share-variables-between-source-files-in-c">How do I use extern to share variables between source files in C?</a>, and <a href="https://github.com/blog/2104-working-with-submodules">Working with submodules</a>.</p>
 
 ## What students should learn from this project
 
