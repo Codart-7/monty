@@ -21,7 +21,7 @@ Monty 0.98 is a scripting language that is first compiled into Monty byte codes 
 
 ## Resources
 
-<p>Read <a href="https://www.google.com/webhp?q=stack%20and%20queue">Google</a>, <a href="http://stackoverflow.com/questions/1433204/how-do-i-use-extern-to-share-variables-between-source-files-in-c">How do I use extern to share variables between source files in C?</a>, and <a href="https://github.com/blog/2104-working-with-submodules">Working with submodules</a>.</p>
+<p>Read <a href="https://www.google.com/webhp?q=stack%20and%20queue">Google</a>, <a href="http://stackoverflow.com/questions/1433204/how-do-i-use-extern-to-share-variables-between-source-files-in-c">How do I use extern to share variables between source files in C?</a>
 
 ## What students should learn from this project
 
@@ -32,7 +32,6 @@ At the end of this project you are expected to be able to explain to anyone, wit
 - What are the common implementations of stacks and queues
 - What are the most common use cases of stacks and queues
 - What is the proper way to use global variables
-- How to work with git submodules
 
 ## Requirements
 
@@ -50,7 +49,7 @@ At the end of this project you are expected to be able to explain to anyone, wit
 <li>Don&#39;t forget to push your header file</li>
 <li>All your header files should be include guarded</li>
 <li>You are expected to do those tasks in the order shown in the project</li>
-<li>The repository <code>monty</code> should be added as a submodule to your <code>holbertonschool-low_level_programming</code> repository, under the name <code>0x18-stacks_queues_lifo_fifo</code></li>
+
 <li>Please use those data structures for this project:</li>
 </ul>
 
