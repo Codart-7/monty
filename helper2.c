@@ -1,15 +1,15 @@
 #include "monty.h"
 
 /**
- * delegate_op - based on tokens from a single line,
- * it decides what functions to call
- * @stack: double pointer to head of the stack
- * @line_number: line in bytecode file being processed, zero indexed
- * Return:  nothing
- */
+ * delegate_op - based on tokens from single line, decide what function to call
+ * @stack: double pointer to head of stack data structure
+ * @op: operator, aka token[0] from getline
+ * @line_number: line in byte-code file being processed, zero indexed
+ * Return: int for mysterious purposes
+ **/
 void delegate_op(stack_t **stack, char *op, unsigned int line_number)
 {
-	int i;
+	int i = 0;
 	instruction_t all_ops[] = {
 		{"push", _push},
 		{"pall", _pall},
@@ -39,7 +39,7 @@ void delegate_op(stack_t **stack, char *op, unsigned int line_number)
 	}
 	if (strlen(op) != 0 && op[0] != '#')
 	{
-		dprintf(2, "L%u: unknown instruction %s\n", line_number, op);
+		printf("L%u: unknown instruction %s\n", line_number, op);
 		exit(EXIT_FAILURE);
 	}
 }
