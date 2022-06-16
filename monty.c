@@ -22,7 +22,6 @@ void free_all(void)
 	stack_t *tmp1, *tmp2 = NULL;
 
 	tmp1 = *(glob.top);
-	/* printf("glob.top->%p\n",  (void*)glob.top); */
 	while (tmp1 != NULL)
 	{
 		tmp2 = tmp1->next;
